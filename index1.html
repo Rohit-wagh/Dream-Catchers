@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
+  	<link rel="stylesheet" type="text/css" href=""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <header>
+    
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="bootsnav.css">   
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="bootsnav.js"></script>
+  <style>
+     body{    
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+     body{
+         background-color:#000;
+         height: 100vh;
+     }   
+nav.navbar.bootsnav{
+    border: none;
+    background: none;
+    margin-bottom: 150px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+nav.navbar.bootsnav ul.nav > li{ margin-right: 20px; }
+nav.navbar.bootsnav ul.nav > li > a{
+    padding: 10px 15px;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > a{ padding: 10px 30px 10px 15px; }
+nav.navbar.bootsnav ul.nav > li.active > a,
+nav.navbar.bootsnav ul.nav > li.active > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li.on > a{
+  color: #b71540;
+}
+nav.navbar.bootsnav ul.nav > li > a > span:before,
+nav.navbar.bootsnav ul.nav > li > a > span:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    transition: all 0.4s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li > a > span:after{
+    width: 50px;
+    background-color: #b71540;
+}
+nav.navbar.bootsnav ul.nav > li:hover > a > span:before,
+nav.navbar.bootsnav ul.nav > li.active > a > span:before{
+  transform: translateX(-50%) translateY(-50%) rotate(0);
+  opacity: 1;
+}
+nav.navbar.bootsnav ul.nav > li:hover > a > span:after,
+nav.navbar.bootsnav ul.nav > li.active > a > span:after{
+  transform: translateX(-50%) translateY(-50%) rotate(0);
+  opacity: 1;
+  width: 0;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0 0 0 7px;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > ul{
+    top: 100%;
+    transition: all 0.8s ease 0s;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown.on > ul{ top: 140%; }
+.dropdown-menu.multi-dropdown{
+    position: absolute;
+    left: -100% !important;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+}
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content li{ font-size: 14px; }
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title{
+    font-size: 16px;
+    font-weight: bold;
+    color:#b71540 ;
+}
+@media only screen and (max-width: 990px){
+    .dropdown-menu.multi-dropdown{ left: 0 !important; }
+    nav.navbar.bootsnav .navbar-toggle{
+        background: transparent !important;
+        color: #fff;
+    }
+    nav.navbar.bootsnav ul.nav > li{
+        width: 75%;
+        margin: 5px auto 15px;
+    }
+    nav.navbar.bootsnav.navbar-mobile ul.nav > li > a{
+        text-align: center;
+        color: #fff;
+        border: none;
+    }
+    nav.navbar.bootsnav ul.nav > li.active > a,
+    nav.navbar.bootsnav ul.nav > li > a,
+    nav.navbar.bootsnav ul.nav > li > a:hover,
+    nav.navbar.bootsnav ul.nav > li.on > a{ color: #b71540; }
+    nav.navbar.bootsnav.navbar-mobile .navbar-collapse{ background: #b71540; }
+    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a{
+        color: #fff;
+        border-bottom-color: none;
+    }
+    nav.navbar.bootsnav ul.nav > li.dropdown > ul{ top: 100%; }
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title,
+    nav.navbar.bootsnav.navbar-mobile ul.nav ul.dropdown-menu .col-menu ul.menu-col li a{
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+    }
+     
+     
+</style>
+  
+ </head>
+ <body>
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <nav class="navbar navbar-default navbar-mobile bootsnav on">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                        <a href="./index.html"><img src="logo.png" class="logo"></a>
+
+                    
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+
+                        <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                         
+                           <li class="active">
+                            <a href="#" data-hover="Home">Home <span></span></a></li>
+                            
+
+                                                        <li class="dropdown megamenu-fw">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Decorataing Menu<span></span></a>
+                                <ul class="dropdown-menu megamenu-content animated" role="menu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">Festival</h6>
+                                                <div class="content">
+                                                    <ul class="menu-col">
+                                                        <li><a href="#">Ganesh Festival</a></li>
+                                                        <li><a href="#">Diwali</a></li>
+                                                        <li><a href="#">Holi</a></li>
+                                                        <li><a href="#">Christmas</a></li>
+                                                        <li><a href="#">Durga Mata Festival</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- end col-3 -->
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">Wedding</h6>
+                                                <div class="content">
+                                                    <ul class="menu-col">
+                                                        <li><a href="#">Stage wedding</a></li>
+                                                        <li><a href="#">Destination Wedding</a></li>
+                                                        <li><a href="#">Reception</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- end col-3 -->
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">Memorial Moments</h6>
+                                                <div class="content">
+                                                    <ul class="menu-col">
+                                                        <li><a href="#">Birthday</a></li>
+                                                        <li><a href="#">Anniversary</a></li>
+                                                        <li><a href="#">Naming Ceremony</a></li>
+                                                        <li><a href="#">Independence Day</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-menu col-md-3">
+                                                <h6 class="title">Other Decoration</h6>
+                                                <div class="content">
+                                                    <ul class="menu-col">
+                                                        <li><a href="#">Other</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- end col-3 -->
+                                        </div><!-- end row -->
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                            <a href="#" data-hover="About">Gallery <span></span></a>
+                            </li>
+                            
+
+                           
+                            
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="Pages">Pages <span></span></a>
+                                
+                                <ul class="dropdown-menu animated">
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                        
+                                        <ul class="dropdown-menu animated">
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                                <ul class="dropdown-menu multi-dropdown animated">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                            
+                                            <li><a href="#">Custom Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                    <li><a href="#">Custom Menu</a></li>
+                                </ul>
+                            </li> 
+                           <li>
+                                <a href="#" data-hover="About">Login<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#" data-hover="About">Sign Up<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#" data-hover="About">About Us<span></span></a>
+                            </li>  
+                        </ul>
+                    </div>
+                </nav>
+            </div>    
+        </div>
+    </div>
+     
+
+      <div class="sec111">
+  <section >
+    <div class="vd"><video src="smoke.mp4" autoplay muted></video></div>
+    <div class="heading"><h1>
+     <span class="he">D</span>
+     <span class="he">R</span>
+     <span class="he">E</span>
+     <span class="he">A</span>
+     <span class="he">M</span>
+     <span class="he">C</span>
+     <span class="he">A</span>
+     <span class="he">T</span>
+     <span class="he">C</span>
+     <span class="he">H</span>
+     <span class="he">E</span>
+     <span class="he">R</span>
+     <span class="he">S</span>
+     </div>
+     </h1>
+  </section>
+      </div>
+  
+ 
+
+
+ 
+	<div class="jumbotron jumbotron-fluid height100p banner">
+      <div class="container h100">
+         <div class="contentBox h100">
+          <div class="contentBox-color">
+         	<h1 >Undiscoveres Beauty</h1>
+            <p> Everyone want their special moments memorible in everyones life for that 'here we came'. Wlcome to the dreamcatchers decorators our responsibility is to create your happiness by serving you the best decoration fascilities . We serves you which you want and we are the dreamcatchers to create your dream in reality . We always try to give you the best. Our fascilities make you satisfied .</p>
+         </div>
+        </div>
+      </div>
+   </div>
+   
+   <section class="sec1"id="Explore">
+   	<div class="container">
+   		<div class="row">
+   		   <div class="offset -sm-2 ">
+   		   	<div class="headerText text-center">
+   		   		<h2>Our Lastest Post</h2>
+         	<p>
+       Here are our some latest post with beautiful designs and decorations . Hope you will enjoy our decorations . Like these we create the decorations for your every moments of life , every festival and your all memorible moments so let us enjoy the decorations   		   		</p>
+   		   	</div>
+   		   </div>	
+   		</div>
+   		<div class="row">
+   			<div class="col-sm-4">
+   				<div class="placeBox">
+   					<div class="imgBx">
+   						<img src="homeimg.jpg" class="img-fluid">
+   					</div>
+   					<div class="content">
+   						<h3>Destination Wedding<br>
+   							<span>Satara</span></h3>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="col-sm-4">
+   				<div class="placeBox">
+   					<div class="imgBx">
+   						<img src="homeimg3.jpg" class="img-fluid">
+   					</div>
+   					<div class="content">
+   						<h3>Stage Wedding<br>
+   							<span>Karad</span></h3>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="col-sm-4">
+   				<div class="placeBox">
+   					<div class="imgBx">
+   						<img src="homeimg2.jpg" class="img-fluid">
+   					</div>
+   					<div class="content">
+   						<h3>Reception<br>
+   							<span>Mumbai</span></h3>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+   </section>
+   <section class="sec2" id="adventure">
+    <div class="container h100">
+      <div class="contentBox h100">
+        <div class="col-sm-12">
+          <div class="headerText text-center">
+        <div>
+          <h2>OUR CREATION YOUR HAPINESS</h2>
+          <p> WE TRY TO CRETAE YOUR HAPPINESS BY CREATING THE BEST FASCILITES . AS THE DREAMCATCHERS INDICATES THE WEB AND REPRESENT THE CIRCLE OF LIFE TO PROTECT FROM BAD LIKE THESE WE ARE THE WEB (TEAM) REPRESENT THE CIRCLE OF HAPPINESS AND MAKE THE MOMENTS MEMORIBLE</p>
+          <a href="file:///D:/website/timeline/index.html"class="btn btnD1">Read More</a>
+        </div>
+      </div>
+    </div>
+     
+   </section>
+   <section class="blog" id="blog">
+     <div class="container">
+       <div class="row">
+         <div class="offset-sm-2 col-sm-8">
+           <div class="headerText text-center">
+             <h2>Customes Reviews</h2>
+             <p>Good customer service is all about bringing customers back. And about sending them away happy – happy enough to pass positive feedback about your business along to others, who may then try the product or service you offer for themselves and in their turn become repeat customers.</p>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-sm-6">
+           <div class="blogpost">
+             <div class="imgBx">
+               <img src="ecact.jpg" class="img-fluid">
+             </div>
+             <div class="content">
+               <h1>Ajit S.S- Reception Decoration</h1>
+               <p>Concierges were very helpful, the item I purchased came very fast and I was very pleased with how well the item matched the description and pictures on the website. Will hopefully use the site again for all decoration sure. Also it have nice and supporting team of decoration.</p>        
+                    </div>
+           </div>
+         </div>
+
+          <div class="col-sm-6">
+           <div class="blogpost">
+             <div class="imgBx">
+               <img src="bday.jpg" class="img-fluid">
+             </div>
+             <div class="content">
+               <h1>Sanjay B.Y- Christmas DecorationS</h1>
+               <p>
+               Such wonderful customer service from start to finish! My Cartier piece arrived in immaculate condition. 🌟🌟☺️☺️ Perfection! Highly recommend. Robert is amazing!  Will hopefully use the site again for all decoration sure. Also it have nice and supporting team of decoration. </p>                                    
+             </div>
+           </div>
+         </div>
+
+          <div class="col-sm-6">
+           <div class="blogpost">
+             <div class="imgBx">
+               <img src="deco3.jpg" class="img-fluid">
+             </div>
+             <div class="content">
+               <h1>Akshay G.K - Stage Wedding</h1>
+               <p>
+               Concierges were very helpful, the item I purchased came very fast and I was very pleased with how well the item matched the description and pictures on the website. Will hopefully use the site again for all decoration sure. Also it have nice and supporting team of decoration.</p>
+             </div>
+           </div>
+         </div>
+
+          <div class="col-sm-6">
+           <div class="blogpost">
+             <div class="imgBx">
+               <img src="deco4.jpg" class="img-fluid">
+             </div>
+             <div class="content">
+               <h1>Suraj S.S- Stage Wedding</h1>
+               <p> Such wonderful customer service from start to finish! My Cartier piece arrived in immaculate condition. 🌟🌟☺️☺️ Perfection! Highly recommend. Robert is amazing!  Will hopefully use the site again for all decoration sure. Also it have nice and supporting team of decoration</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   
+   <section class="contact"id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="headerText text-center">
+            <h2>Contact Us</h2>
+            <p> you need to get additional information about our custom writing service, please feel free to contact us by phone, email . We are here to serve all your needs any time you are facing difficulties with paper writing.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row clearfix">
+        <div class="offset-sm-2 col-sm-8">
+       <form>
+        <div class="formg-group">
+          <label>Name</label>
+          <input type="text" name="" class="form-control">
+        </div>
+        <div class="formg-group">
+          <label>Email</label>
+          <input type="email" name="" class="form-control">
+        </div>
+        <div class="formg-group">
+          <label>Message</label>
+          <textarea class="form-control textarea" name=""></textarea>
+        </div> <br>
+        <div class="formg-group text-center">
+          <button class="btn btnD1">Send</button>
+        </div>
+      </form>
+        </div>
+      </div>
+    </div>
+   </section>
+   
+    <a class="gotopbtn" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+
+
+
+   <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <ul class="sci">
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         </ul>
+         <p class="cpryt">
+           © Copyright 2020 DreamCathchers
+         </p>
+       </div>
+     </div>
+   </div>  
+   </footer>
+	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).scrol(function(){
+
+        $('.navbar').toggleClass('scrolled',$(this).scrollTop()>$('.navbar').height());
+
+      })
+    </script>
+
+</body>
+</html>

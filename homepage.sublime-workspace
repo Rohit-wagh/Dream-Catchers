@@ -1,0 +1,549 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"s",
+				"size\tproperty"
+			],
+			[
+				"form",
+				"formaction\tAttr"
+			],
+			[
+				"MARG",
+				"margin-bottom\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"an",
+				"animation-delay\tproperty"
+			],
+			[
+				"rota",
+				"rotateY()\ttransform"
+			],
+			[
+				"l",
+				"letter-spacing\tproperty"
+			],
+			[
+				"tet",
+				"text-align\tproperty"
+			],
+			[
+				"tra",
+				"translateY()\ttransform"
+			],
+			[
+				"fol",
+				"float\tproperty"
+			],
+			[
+				"backgr",
+				"background-size\tproperty"
+			],
+			[
+				"borfer",
+				"border-left-color\tproperty"
+			],
+			[
+				"border-",
+				"border-right\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"btn",
+				"btnD1"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"f",
+				"font-weight\tproperty"
+			],
+			[
+				"obje",
+				"object-fit\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"FON",
+				"font-size\tproperty"
+			],
+			[
+				"conten",
+				"contentBox"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"bottom",
+				"bottom\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"off",
+				"offset-sm-2"
+			],
+			[
+				"se",
+				"sec1"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"expl",
+				"Explore"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"bacgr",
+				"background-attachment\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"backgro",
+				"background-size\tproperty"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"st",
+				"sticky\tposition"
+			],
+			[
+				"add",
+				"Address"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"border-b",
+				"border-bottom\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"mag",
+				"margin-left\tproperty"
+			],
+			[
+				"b",
+				"border-radius\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"inli",
+				"inline-flex\tdisplay"
+			],
+			[
+				"r",
+				"rgb()\tbackground"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/website/otherpayment.html",
+		"/D/website/payment.html",
+		"/D/website/reception.html",
+		"/D/website/recpn.html",
+		"/D/website/register.html",
+		"/D/website/homedemo1.css",
+		"/D/website/durgapayment.css",
+		"/D/website/wedding.html",
+		"/D/website/wedding1.html",
+		"/D/website/anniversarypayment.html",
+		"/D/website/hallpayment.html",
+		"/D/website/homedemo1.html",
+		"/D/website/timeline/index.html",
+		"/D/website/diwalipayment.html",
+		"/D/website/diwali.html",
+		"/D/website/naming.html",
+		"/D/website/namingpayment.html",
+		"/D/website/login.html",
+		"/D/website/indpayment.html",
+		"/D/website/ind.html",
+		"/D/website/holypayment.html",
+		"/D/website/ganeshpayment.html",
+		"/D/website/durgapayment.html",
+		"/D/website/durga.html",
+		"/D/website/dj..html",
+		"/D/website/destinationpayment.html",
+		"/D/website/destination.html",
+		"/D/website/confirm.html",
+		"/D/website/chrismaspayment.html",
+		"/D/website/chrismas.html",
+		"/D/website/birthday.html",
+		"/D/website/birthdaypayment.html",
+		"/D/website/anniversary.html",
+		"/D/website/holy.css",
+		"/D/website/ind.css",
+		"/D/website/holy.html",
+		"/D/website/durga.css",
+		"/D/website/timeline/css/style.css",
+		"/D/website/8eaeb24a-799d-4830-b8d4-e325e30121ce_200x200.png",
+		"/D/website/gallery/holi party/index.html",
+		"/D/website/gallery/independance day/index.html",
+		"/D/website/gallery/anniversary/css/style.css",
+		"/D/website/gallery/anniversary/index.html",
+		"/D/website/gallery/diwali/index.html",
+		"/D/website/gallery/diwali/css/style.css",
+		"/D/website/gallery/holi party/css/style.css",
+		"/D/website/gallery/independance day/css/style.css",
+		"/D/website/wedding.css",
+		"/D/website/gallery/christmas/index.html",
+		"/D/website/gallery/christmas/css/style.css",
+		"/D/website/gallery/ganpati pandal/index.html",
+		"/D/website/gallery/reception/css/style.css",
+		"/D/website/gallery/stage wedding/css/style.css",
+		"/D/website/gallery/stage wedding/index.html",
+		"/D/website/gallery/reception/index.html",
+		"/D/website/gallery/main gallery/css/main.css",
+		"/D/website/gallery/main gallery/index.html",
+		"/D/website/gallery/ganpati pandal/css/style.css",
+		"/D/website/gallery/durga pandal/Iindex.html",
+		"/D/website/gallery/durga pandal/css/style.css",
+		"/D/website/gallery/destination wedding/index.html",
+		"/D/website/gallery/destination wedding/css/style.css",
+		"/D/website/gallery/bday gallery/css/style.css",
+		"/D/website/gallery/bday gallery/index.html",
+		"/D/website/anniversary.css",
+		"/D/website/birthday.css",
+		"/D/website/destination.css",
+		"/D/website/recpn.css",
+		"/D/website/wedding1.css",
+		"/D/website/dj.css",
+		"/D/website/chrismas.css",
+		"/D/website/1.jpg",
+		"/D/website/di",
+		"/D/website/paymentform.html",
+		"/D/website/payment.css",
+		"/D/website/confirm.css",
+		"/D/website/form.css",
+		"/D/website/diwalipayment.css",
+		"/D/website/paymentform.css",
+		"/D/website/destinationpayment.css",
+		"/D/website/chrismaspayment.css",
+		"/D/website/diwali.css",
+		"/D/website/register.css",
+		"/D/website/wedding.1css",
+		"/D/website/gallery/bday gallery/css/lightbox.min.css",
+		"/D/website/gallery/ganpati pandal/css/lightbox.min.css",
+		"/D/website/login.css",
+		"/D/website/lordganesh.css",
+		"/D/website/lordganesh.html",
+		"/D/website/animation.html",
+		"/D/website/animation.css",
+		"/D/website/payment.js",
+		"/D/website/home.css",
+		"/D/website/homepage.html",
+		"/E/hm.css",
+		"/E/hm.html",
+		"/D/website/demo.css",
+		"/D/website/demo.html",
+		"/D/website/javascriptvalidations.html",
+		"/D/website/logo.css",
+		"/D/website/logo.html",
+		"/D/website/style.css",
+		"/D/website/index.html",
+		"/D/website/css/homepage.css",
+		"/C/Users/shree/Documents/homepage.html"
+	],
+	"find":
+	{
+		"height": 27.2
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pnhg",
+			"p",
+			" nav",
+			"=\"#\"></"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.2
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "homepage.sublime-project",
+	"replace":
+	{
+		"height": 51.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

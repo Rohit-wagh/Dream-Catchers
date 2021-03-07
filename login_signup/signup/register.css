@@ -1,0 +1,253 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  
+
+}
+
+body
+{	
+	font-family: sans-serif;
+  background: url(bhhh.jpg) no-repeat;
+  background-size: cover;
+
+}
+body:before
+{
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-filter:blur(10px);
+  -moz-filter:blur(10px);
+  filter: ;
+
+
+}
+
+.menu-bar
+{
+  background: rgb(0,100,0);
+  height: 100px;
+  top: 0;
+  position: sticky;
+  margin-bottom: 20px;
+  border-bottom: 3px solid orange;
+  text-align: center;
+  z-index: 2000;
+}
+
+.logo
+{
+	height: 80px;
+	margin: 15px 15px;
+	float: left;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+
+}
+.menu-bar ul li
+{
+
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+
+}
+
+.menu-bar ul li a
+{
+ text-decoration: none;
+ color: #fff;
+
+}
+
+.active, .menu-bar ul li:hover
+{
+  background: #2bab0d;
+  border-radius: 10px;
+
+}
+
+.menu-bar .fa
+{
+	margin-right: 8px;
+
+}
+
+.sub-menu-1
+{
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,100,0);
+	 margin-top: 15px;
+	 margin-left: - 15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 220px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+   border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+.fa-angle-right
+{
+	float: right;
+}
+
+.sub-menu-2
+{
+	display: none;
+
+}
+
+.signup
+{
+	float: right;
+}
+
+
+.hovor-me:hover .sub-menu-2
+{
+	position: absolute;
+	display:block;
+	margin-top: -40px;
+	margin-left: 200px;
+	background: rgb(0,100,0); 
+}       
+
+.box{
+
+  position: absolute;
+  top: 800%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+  text-align: center;
+}
+
+.box input[type = "text"],.box input[type = "password"]
+{
+  border:0;
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 30px;
+  width: 350px;
+  outline: none;
+  color: #fff;
+  font-size: 1.25em;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus
+{
+  width: 450px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "submit"]
+{
+  border:0;
+  background: red;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover
+{
+  background: #63B38E;
+}
+
+footer
+{
+  margin-top:800px;
+  padding: 50px 0 0;
+}
+
+.sci
+{
+ top:460px;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci li
+{
+  top: 100px;
+  list-style: none;
+  margin: 0 20px;
+
+}
+ 
+.sci li a
+{
+  color: #fff;
+  font-size: 2em;
+  transition: .5s;
+
+
+}
+
+.sci li a:hover
+{
+  color: #000;
+}
+
+.cpryt
+{   
+  top: 10px;
+  text-align: center;
+  color: #fff;
+
+}

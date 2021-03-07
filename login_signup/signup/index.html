@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
+  <link rel="stylesheet" type="text/css" href=""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <header>
+  <nav class="">
+ <div class="menu-bar">
+    <a href="file:///D:/website/homedemo1.html"><img src="logo.png" class="logo"></a>
+   <ul>
+    <li class="active"><a href="file:///D:/website/homedemo1.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a> </li>
+
+     <li><a href="#"><i class="fa fa-bars" aria-hidden="true"> Decorating Menu</i></a>
+      <div class="sub-menu-1"> 
+        <ul>
+          <li class="hovor-me"><a href="#">Festival</a><i class="fa fa-angle-right"></i>
+            <div class="sub-menu-2">
+              <ul>
+                <li><a href="file:///D:/website/wedding.html">Lord Ganesh Festival</a></li>
+                <li><a href="file:///D:/website/diwali.html">Diwali</a></li>
+                 <li><a href="file:///D:/website/holy.html">Holi</a></li>
+                <li><a href="file:///D:/website/chrismas.html">Christmas</a></li>
+                <li><a href="file:///D:/website/durga.html">Durga Mata Festival</a></li>
+              </ul>
+
+            </div>
+          </li>
+          <li class="hovor-me"><a href="#">Wedding</a><i class="fa fa-angle-right"></i>
+            <div class="sub-menu-2">
+              <ul>
+                <li><a href="file:///D:/website/wedding1.html">Stage Decoration</a></li>
+                <li><a href="file:///D:/website/destination.html">Destination Wedding </a></li>
+                <li><a href="file:///D:/website/recpn.html">Reception</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="hovor-me"><a href="#">Memorial Moment</a><i class="fa fa-angle-right"></i>
+                 <div class="sub-menu-2">
+                  <ul>
+                <li><a href="file:///D:/website/birthday.html">Birthday</a></li>
+                <li><a href="file:///D:/website/anniversary.html">Anniversary </a></li>
+                <li><a href="file:///D:/website/naming.html">Naming Ceremony</a></li>
+                 <li><a href="file:///D:/website/ind.html">Indepemdance Day</a></li>
+
+            
+              </ul>           
+                 </div>
+          </li>
+          <li><a href="file:///D:/website/otherpayment.html">Other</a></li>
+        </ul>
+      </div>
+     </li>
+    </li>
+    <li><a href="file:///D:/website/gallery/main%20gallery/index.html"><i class="fa fa-picture-o" aria-hidden="true"> Gallery</i></a></li>
+    <li><a href="file:///D:/website/login.html"><i class="fa fa-id-badge" aria-hidden="true"> Login</i></a></li>
+    <li><a href="file:///D:/website/timeline/index.html"><i class="fa fa-question-circle" aria-hidden="true"> About Us</i></a></li>
+    <br>
+    <br>
+    <li >
+      <div class="signup">
+        <a href="file:///D:/website/register.html"><i class="fa fa-id-card-o" aria-hidden="true">  Get Started</i></a>
+      </li>
+    </div>
+   </ul>
+   </div>
+   </nav>
+ </header>
+<br>
+<p class="text-white text-center font-weight-bold" style="font-size: 50px;">Regestraion Form</p>
+
+	<div class="container"><br>
+		
+		<div class="col-lg-6 m-auto d-block">
+			
+			<form  action="#" onsubmit="return validation()" class="bg-light">
+				<div class="box">
+				<div class="form-group">
+					<label class="text-white font-weight-bold"> Username: </label>
+					<input type="text" name="user" class="form-control" id="user" autocomplete="off">
+					<span id="username" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="text-white font-weight-bold"> Password: </label>
+					<input type="text" name="pass" class="form-control" id="pass" autocomplete="off">
+					<span id="passwords" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="text-white font-weight-bold"> Confirm Password: </label>
+					<input type="text" name="conpass" class="form-control" id="conpass" autocomplete="off">
+					<span id="confrmpass" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="text-white font-weight-bold"> Mobile Number: </label>
+					<input type="text" name="mobile" class="form-control" id="mobileNumber" autocomplete="off">
+					<span id="mobileno" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="text-white font-weight-bold"> Email: </label>
+					<input type="text" name="email" class="form-control" id="emails" autocomplete="off">
+					<span id="emailids" class="text-danger font-weight-bold"> </span>
+				</div>
+
+				<div class="form-group">
+					<label class="text-white font-weight-bold"> Address: </label>
+					<input type="text" name="add" class="form-control" id="adds" autocomplete="off">
+					<span id="add" class="text-danger font-weight-bold"> </span>
+				</div>
+
+
+				<input type="submit" name="submit" value="submit" class="btn btn-success" 	autocomplete="off">
+
+               </div>
+			</form><br><br>
+
+
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		
+
+		function validation(){
+
+			var user = document.getElementById('user').value;
+			var pass = document.getElementById('pass').value;
+			var confirmpass = document.getElementById('conpass').value;
+			var mobileNumber = document.getElementById('mobileNumber').value;
+			var emails = document.getElementById('emails').value;
+            var address = document.getElementById('add').value;
+
+
+
+
+			if(user == ""){
+				document.getElementById('username').innerHTML =" ** Please fill the username field";
+				return false;
+			}
+			if((user.length <= 2) || (user.length > 20)) {
+				document.getElementById('username').innerHTML =" ** Username lenght must be between 2 and 20";
+				return false;	
+			}
+			if(!isNaN(user)){
+				document.getElementById('username').innerHTML =" ** only characters are allowed";
+				return false;
+			}
+
+
+
+
+
+
+
+			if(pass == ""){
+				document.getElementById('passwords').innerHTML =" ** Please fill the password field";
+				return false;
+			}
+			if((pass.length <= 5) || (pass.length > 20)) {
+				document.getElementById('passwords').innerHTML =" ** Passwords lenght must be between  5 and 20";
+				return false;	
+			}
+
+
+			if(pass!=confirmpass){
+				document.getElementById('confrmpass').innerHTML =" ** Password does not match the confirm password";
+				return false;
+			}
+
+
+
+			if(confirmpass == ""){
+				document.getElementById('confrmpass').innerHTML =" ** Please fill the confirmpassword field";
+				return false;
+			}
+
+
+
+
+			if(mobileNumber == ""){
+				document.getElementById('mobileno').innerHTML =" ** Please fill the mobile NUmber field";
+				return false;
+			}
+			if(isNaN(mobileNumber)){
+				document.getElementById('mobileno').innerHTML =" ** user must write digits only not characters";
+				return false;
+			}
+			if(mobileNumber.length!=10){
+				document.getElementById('mobileno').innerHTML =" ** Mobile Number must be 10 digits only";
+				return false;
+			}
+
+
+
+			if(emails == ""){
+				document.getElementById('emailids').innerHTML =" ** Please fill the email idx` field";
+				return false;
+			}
+			if(emails.indexOf('@') <= 0 ){
+				document.getElementById('emailids').innerHTML =" ** @ Invalid Position";
+				return false;
+			}
+
+			if((emails.charAt(emails.length-4)!='.') && (emails.charAt(emails.length-3)!='.')){
+				document.getElementById('emailids').innerHTML =" ** . Invalid Position";
+				return false;
+			}
+
+			if (address=="") {
+              document.getElementById('address').innerHTML="**Please fill the Address";
+              return false;
+			}
+		}
+
+	</script>
+
+ <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <ul class="sci">
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         </ul>
+         <p class="cpryt">
+           © Copyright 2019 Dream Cathchers
+         </p>
+       </div>
+     </div>
+   </div>  
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

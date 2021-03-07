@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Confirm Page</title>
+      <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <link rel="stylesheet" href="confirm.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900">
+    <link rel="stylesheet" type="text/css" href=""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <header>
+  <nav class="">
+ <div class="menu-bar">
+    <a href="../index.html"><img src="logo.png" class="logo"></a>
+   <ul>
+    <li class="active"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a> </li>
+
+     <li><a href="#"><i class="fa fa-bars" aria-hidden="true"> Decorating Menu</i></a>
+      <div class="sub-menu-1"> 
+        <ul>
+          <li class="hovor-me"><a href="#">Festival</a><i class="fa fa-angle-right"></i>
+            <div class="sub-menu-2">
+              <ul>
+                <li><a href="../festival/ganesha/index.html">Lord Ganesh Festival</a></li>
+                <li><a href="../festival/diwali/index.html">Diwali</a></li>
+                 <li><a href="../festival/holi/index.html">Holi</a></li>
+                <li><a href="../festival/christmas/index.html">Christmas</a></li>
+                <li><a href="../festival/durga/index.html">Durga Mata Festival</a></li>
+              </ul>
+
+            </div>
+          </li>
+          <li class="hovor-me"><a href="#">Wedding</a><i class="fa fa-angle-right"></i>
+            <div class="sub-menu-2">
+              <ul>
+                <li><a href="../wedding/stage_wedding/index.html">Stage Wedding</a></li>
+                <li><a href="../wedding/destination_wedding/index.html">Destination Wedding </a></li>
+                <li><a href="../wedding/reception/index.html">Reception</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="hovor-me"><a href="#">Memorial Moment</a><i class="fa fa-angle-right"></i>
+                 <div class="sub-menu-2">
+                  <ul>
+                <li><a href="../memorial_moments/birthday/index.html">Birthday</a></li>
+                <li><a href="../memorial_moments/anniversary/index.html">Anniversary </a></li>
+                <li><a href="../memorial_moments/naming_ceremony/index.html">Naming Ceremony</a></li>
+                 <li><a href="../memorial_moments/independence_day/index.html">Indepemdance Day</a></li>
+
+            
+              </ul>           
+                 </div>
+          </li>
+          <li><a href="../payment/other_payments/index.html">Other</a></li>
+        </ul>
+      </div>
+     </li>
+    </li>
+    <li><a href="../gallery/main_gallery/index.html"><i class="fa fa-picture-o" aria-hidden="true"> Gallery</i></a></li>
+    <li><a href="../login_signup/login/index.html"><i class="fa fa-id-badge" aria-hidden="true"> Login</i></a></li>
+    <li><a href="../timeline/index.html"><i class="fa fa-question-circle" aria-hidden="true"> About Us</i></a></li>
+    <br>
+    <br>
+    <li >
+      <div class="signup">
+        <a href="../login_signup/signup/index.html"><i class="fa fa-id-card-o" aria-hidden="true">  Get Started</i></a>
+      </li>
+    </div>
+   </ul>
+   </div>
+   </nav>
+ </header>
+
+
+ <section class="bg1" >
+   <div  class="bd1">
+     <div class="content">
+          <div class="random">
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+               <span class="nbr ltr">0</span>
+          </div>
+     </div>
+     </div>
+</section>
+     <script type="text/javascript">
+
+     $(document).ready(function() {
+
+     var $randomnbr = $('.nbr');
+     var $timer = 40;
+     var $it;
+     var $data = 0;
+     var index;
+     var change;
+     var letters = ["O", "R", "D", "E", "R"," ", "C", "O", "N","F","I","R","M","E","D"];
+
+     $randomnbr.each(function() {
+
+     change = Math.round(Math.random()*100);
+     $(this).attr('data-change', change);
+
+     });
+
+     function random() {
+          return Math.round(Math.random()*9);
+     };
+
+     function select() {
+          return Math.round(Math.random()*$randomnbr.length+1);
+     };
+
+     function value() {
+          $('.nbr:nth-child('+select()+')').html(''+random()+'');
+          $('.nbr:nth-child('+select()+')').attr('data-number', $data);
+          $data++;
+
+          $randomnbr.each(function() {
+               if(parseInt($(this).attr('data-number')) > parseInt($(this).attr('data-change'))) {
+                    index = $('.ltr').index(this);
+                    $(this).html(letters[index]);
+                    $(this).removeClass('nbr');
+               }
+          });
+     };
+
+     $it = setInterval(value, $timer);
+
+     });
+
+     </script>
+
+
+      <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <ul class="sci">
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         </ul>
+         <p class="cpryt">
+           © Copyright 2020 DreamCathchers
+         </p>
+       </div>
+     </div>
+   </div>  
+   </footer>
+
+</body>
+</html>
